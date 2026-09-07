@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-i18n-doctitle="notfound.docTitle">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Not Found | David Revoltós</title>
+<meta name="robots" content="noindex">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="nav.skipLink">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="index.html" class="brand"><span class="brand__mark">D.</span>&nbsp;Revoltós</a>
+
+    <div class="nav-scrim" data-open="false"></div>
+    <nav class="nav__links" id="primary-nav" data-open="false" aria-label="Primary">
+      <a href="index.html" class="nav__link" data-i18n="nav.home">Home</a>
+      <a href="experience.html" class="nav__link" data-i18n="nav.work">Work Experience</a>
+      <a href="expertise.html" class="nav__link" data-i18n="nav.expertise">Scientific Expertise</a>
+      <a class="btn btn--accent btn--sm nav__cta-mobile" href="assets/cv/David-Revoltos-CV.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg>
+        <span data-i18n="nav.downloadCV">Download CV</span>
+      </a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--outline btn--sm nav__desktop-only" href="assets/cv/David-Revoltos-CV.pdf" download>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg>
+        <span data-i18n="nav.downloadCV">Download CV</span>
+      </a>
+      <button class="lang-toggle" type="button" aria-label="Switch to Spanish" data-lang="en">ES</button>
+      <button class="nav__toggle" type="button" aria-label="Toggle navigation menu" data-i18n-aria="nav.toggleMenu" aria-expanded="false" aria-controls="primary-nav">
+        <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="section" style="padding-block: var(--space-9); text-align: center;">
+    <div class="container">
+      <span class="section-eyebrow">404</span>
+      <h1 class="page-header__title" style="margin-top: var(--space-3);" data-i18n="notfound.title">Page not found</h1>
+      <p class="page-header__lede" style="margin-inline: auto;" data-i18n="notfound.lede">The page you're looking for doesn't exist or may have moved.</p>
+      <div class="hero__actions" style="justify-content: center; margin-top: var(--space-6);">
+        <a class="btn btn--primary" href="index.html" data-i18n="notfound.backHome">Back to Home</a>
+        <a class="btn btn--outline" href="experience.html" data-i18n="home.viewWork">View Work Experience</a>
+        <a class="btn btn--outline" href="expertise.html" data-i18n="home.viewExpertise">View Scientific Expertise</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer__row">
+    <span>© <span id="year">2026</span> David Revoltós. <span data-i18n="footer.rights">References available upon request.</span></span>
+    <nav class="footer__links" aria-label="Footer">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="experience.html" data-i18n="nav.work">Work Experience</a>
+      <a href="expertise.html" data-i18n="nav.expertise">Scientific Expertise</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/i18n.js"></script>
+</body>
+</html>
